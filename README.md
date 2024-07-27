@@ -195,7 +195,7 @@ anchor test --skip-deploy
     )?;
     ```    
 
-    Please note that **mint** is also PDA account.
+    Please note that **mint** is also a PDA account.
 
 3. <a id="mint-tokens"></a>Mint tokens:
 
@@ -234,7 +234,7 @@ anchor test --skip-deploy
     );
     ```
 
-    Create a token using **anchor_spl::token::mint_to** in **mint_tokens** function, line 67.
+    Mint tokens using **anchor_spl::token::mint_to** in **mint_tokens** function, line 67.
     ```rust
     // Mint tokens to the destination account
     mint_to(
